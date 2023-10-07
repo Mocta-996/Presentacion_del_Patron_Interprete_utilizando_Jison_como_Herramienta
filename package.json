@@ -1,0 +1,28 @@
+{
+  "name": "miinterprete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon src/Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mocta-996/Presentacion_del_Patron_Interprete_utilizando_Jison_como_Herramienta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mocta-996/Presentacion_del_Patron_Interprete_utilizando_Jison_como_Herramienta/issues"
+  },
+  "homepage": "https://github.com/Mocta-996/Presentacion_del_Patron_Interprete_utilizando_Jison_como_Herramienta#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

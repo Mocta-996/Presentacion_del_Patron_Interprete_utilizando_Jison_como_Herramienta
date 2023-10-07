@@ -1,0 +1,41 @@
+// Declaración de variables de texto
+texcadena to1; // String texto1;
+cadena texto2;
+texto1 = "Ejemplo de cadena";
+texto2 = "Otro ejemplo";
+
+// Imprimimos un separador
+imprimir("****************");
+
+// Imprimimos un encabezado para comprobar la declaración de cadenas
+imprimir("A continuación, una prueba de declaraciones de cadenas:");
+imprimir(texto1 & " --- " & texto2);
+imprimir("Resultado de operación: " & texto1 & (5 * 5) & texto2);
+texto1 = (5 * 5) & " Modificado";
+imprimir("El nuevo valor de texto1 es: " & texto1);
+
+// Imprimimos un separador
+imprimir("****************");
+
+// Imprimimos el encabezado para las tablas de multiplicar
+
+imprimir("Tablas de multiplicar");
+
+// Declaración de variables numéricas
+numero numA;  // Int numA;
+numero numB;
+
+// Inicialización de las variables
+numA = 0;
+numB = 1;
+
+// Imprimimos un separador
+imprimir("****************");
+imprimir(numA)
+
+// Modificamos los valores de las variables
+numA = 11;
+numero numC = 13; // Declaramos y asignamos valor a numC
+
+// Imprimimos un separador
+imprimir("****************");
